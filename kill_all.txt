@@ -1,0 +1,21 @@
+REM This script kills all open applications
+REM in Windows 10.  Useful for keeping students
+REM on task!
+
+LED ON
+DELAY 1000
+GUI r
+DELAY 500
+STRING taskkill /F /IM "STATUS wq RUNNING"
+ENTER
+DELAY 5000
+GUI r
+STRING notepad.exe
+ENTER
+DELAY 500
+STRING Back to work please!!!
+DELAY 2000
+GUI r
+DELAY 500
+STRING c:\Program Files\Blender Foundation\blender 2.93\blender.exe
+ENTER
