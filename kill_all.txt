@@ -4,18 +4,18 @@ REM on task!
 
 LED ON
 DELAY 1000
-GUI r
+HOTKEY GUI r
 DELAY 500
-STRING taskkill /F /IM "STATUS wq RUNNING"
-ENTER
+STRING taskkill /F /IM chrome.exe /IM firefox.exe /IM Roblox.exe /IM RobloxStudio.exe /IM RobloxPlayer.exe /IM steam.exe
+PRESS ENTER
 DELAY 5000
-GUI r
+HOTKEY GUI r
 STRING notepad.exe
-ENTER
+PRESS ENTER
 DELAY 500
 STRING Back to work please!!!
 DELAY 2000
-GUI r
+HOTKEY GUI r
 DELAY 500
 STRING c:\Program Files\Blender Foundation\blender 2.93\blender.exe
-ENTER
+PRESS ENTER
